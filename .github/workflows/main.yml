@@ -22,7 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: LadyCailin/azure-table-storage-upload@v0.0.1
+      - uses: LadyCailin/azure-table-storage-upload@v0.0.2
         with:
           table_name: test
           partition_key: AAA
